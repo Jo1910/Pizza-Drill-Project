@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+#menuBG {
+  width: 600px;
+  height: 550px;
+  margin: 40px auto;
+  background-color: black;
+  color: white;
+  border: olive double 7px;
+}
+
+#frmMenu {
+  width: 600px;
+  height: 200px;
+}
+
+#totalPrice {
+  width: 200x;
+  height: 190px;
+  margin: 20 auto;
+  padding-right: 30px;
+  padding-top: 60px;
+  float: right;
+}
+
+.left {
+  width: 200px;
+  height: 200px;
+  padding-left: 35px;
+  float: left;
+}
+
+.center {
+  width: 200px;
+  height: 200px;
+  padding-left: 30px;
+  float: left;
+}
+
+.right {
+  width: 200px;
+  height: 200px;
+  padding-left: 20px;
+  float: right;
+}
+
+#showText {
+  width: 200px;
+  height: 190px;
+  margin: 0 auto;
+  float: left;
+  padding-left: 20px;
+}
+
+#cart {
+  top: 0;
+  margin: 0px auto;
+  width: 400px;
+  height: 200px;
+}
+
+#btnOrder {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: #e4e895;
+  box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#btnOrder:hover {
+  color: #f5e2a4;
+  background-color: blue;
+  box-shadow: none;
+  border: darkblue 2px;
+}
+
+body {
+  background-image: url("../images/pizza1.png"), url("../images/pizza2.png"),
+    url("../images/pizza1.png"), url("../images/pizza2.png"),
+    url("../images/pizza1.png"), url("../images/pizza2.png");
+  background-repeat: no-repeat;
+  background-position: left 15px top 15px, left 1200px top 500px,
+    left 1050px top 270px, right 1100px bottom 150px, left 50px top 500px,
+    right 60px bottom 300px;
+  background-size: 200px;
+  background-color: red;
+  font-family: Commic Sans MS, Commic Sans, cursive;
+}
+
+.gradText {
+  background-image: linear-gradient(
+    to right,
+    #f2792e 0%,
+    #f2a933 20%,
+    #fcfc77 40%,
+    #f0732b 60%,
+    #eb5c28 80%,
+    #cf3c06 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: larger;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  color: orange;
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+}
